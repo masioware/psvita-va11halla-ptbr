@@ -1,5 +1,12 @@
 # VA-11 Hall-A para PSVita em PT-BR
 
+- [VA-11 Hall-A para PSVita em PT-BR](#va-11-hall-a-para-psvita-em-pt-br)
+  - [Créditos para a tradução](#créditos-para-a-tradução)
+  - [Dados da versão utilizada para tradução](#dados-da-versão-utilizada-para-tradução)
+  - [Instalação manual](#instalação-manual)
+  - [Arquivos utilitários](#arquivos-utilitários)
+  - [Ferramentas úteis](#ferramentas-úteis)
+
 ## Créditos para a tradução
 
 Este é um port para o PSVita da tradução PT-BR feita pelo **Project Nominono**.
@@ -17,12 +24,12 @@ Este é um port para o PSVita da tradução PT-BR feita pelo **Project Nominono*
 
 ## Instalação manual
 
-Para realizar a instalação manualmente em um **PSVita / Emulador** é importante localizar a pasta do jogo, normalmente se encontra no diratório `/ux0/app/PCSB01166/games` e fazer a
+Para realizar a instalação manualmente em um **PSVita / Emulador** é importante localizar a pasta do jogo, normalmente se encontra no diretório `/ux0/app/PCSB01166/games` e fazer a
 substituição dos arquivos contidos no diretório `/src`.
 
 ## Arquivos utilitários
 
-Estes arquivos são úteis para o desenvolvimento, porém não podem ser encontrados em meio aos aquivos no jogo para o PSVita, estes arquivos podem ser encontrados do diretório `./utils`.
+Estes arquivos são úteis para o desenvolvimento, porém não podem ser encontrados em meio aos aquivos no jogo para o PSVita, estes arquivos podem ser encontrados do diretório `/utils`.
 
 > Arquivos exportados do `data.win` da versão Steam, foram obtidos com o _UndertaleModTool_.
 
