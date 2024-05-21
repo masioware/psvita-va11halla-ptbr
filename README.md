@@ -6,6 +6,7 @@
   - [Instalação manual](#instalação-manual)
   - [Arquivos utilitários](#arquivos-utilitários)
   - [Ferramentas úteis](#ferramentas-úteis)
+  - [Debugging](#debugging)
 
 ## Créditos para a tradução
 
@@ -42,3 +43,18 @@ Estes arquivos são úteis para o desenvolvimento, porém não podem ser encontr
 
 - Emulador de PSVita: [Vita3k](https://vita3k.org/)
 - Compilação e descompilação para o Game Maker Engine: [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool)
+
+## Debugging
+
+Para facilitar o desenvolvimento e o processo de depuração, é possível gerar logs utilizando a função `show_debug_message`.
+
+```gml
+  // code example:
+  show_debug_message("debugging decompiled game...")
+```
+
+Conseguimos visualizar o output no terminal que abre junto à execução do Vita3k:
+
+```log
+[15:41:36.570] |T| [write_file]: \*\*\* TTY: debugging decompiled game...
+```
